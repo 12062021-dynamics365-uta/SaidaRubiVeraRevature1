@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Lecture Demo_ComplexList/1.0.0": {
+        "runtime": {
+          "Lecture Demo_ComplexList.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lecture Demo_ComplexList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
