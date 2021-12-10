@@ -1,0 +1,16 @@
+C:\Users\srver\OneDrive\Documents\Revature\Practice Code\VS DotNet\Lecture Demo_ComplexList\bin\Debug\net5.0\Lecture Demo_ComplexList.exe
+C:\Users\srver\OneDrive\Documents\Revature\Practice Code\VS DotNet\Lecture Demo_ComplexList\bin\Debug\net5.0\Lecture Demo_ComplexList.deps.json
+C:\Users\srver\OneDrive\Documents\Revature\Practice Code\VS DotNet\Lecture Demo_ComplexList\bin\Debug\net5.0\Lecture Demo_ComplexList.runtimeconfig.json
+C:\Users\srver\OneDrive\Documents\Revature\Practice Code\VS DotNet\Lecture Demo_ComplexList\bin\Debug\net5.0\Lecture Demo_ComplexList.runtimeconfig.dev.json
+C:\Users\srver\OneDrive\Documents\Revature\Practice Code\VS DotNet\Lecture Demo_ComplexList\bin\Debug\net5.0\Lecture Demo_ComplexList.dll
+C:\Users\srver\OneDrive\Documents\Revature\Practice Code\VS DotNet\Lecture Demo_ComplexList\bin\Debug\net5.0\ref\Lecture Demo_ComplexList.dll
+C:\Users\srver\OneDrive\Documents\Revature\Practice Code\VS DotNet\Lecture Demo_ComplexList\bin\Debug\net5.0\Lecture Demo_ComplexList.pdb
+C:\Users\srver\OneDrive\Documents\Revature\Practice Code\VS DotNet\Lecture Demo_ComplexList\obj\Debug\net5.0\Lecture Demo_ComplexList.csproj.AssemblyReference.cache
+C:\Users\srver\OneDrive\Documents\Revature\Practice Code\VS DotNet\Lecture Demo_ComplexList\obj\Debug\net5.0\Lecture Demo_ComplexList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srver\OneDrive\Documents\Revature\Practice Code\VS DotNet\Lecture Demo_ComplexList\obj\Debug\net5.0\Lecture Demo_ComplexList.AssemblyInfoInputs.cache
+C:\Users\srver\OneDrive\Documents\Revature\Practice Code\VS DotNet\Lecture Demo_ComplexList\obj\Debug\net5.0\Lecture Demo_ComplexList.AssemblyInfo.cs
+C:\Users\srver\OneDrive\Documents\Revature\Practice Code\VS DotNet\Lecture Demo_ComplexList\obj\Debug\net5.0\Lecture Demo_ComplexList.csproj.CoreCompileInputs.cache
+C:\Users\srver\OneDrive\Documents\Revature\Practice Code\VS DotNet\Lecture Demo_ComplexList\obj\Debug\net5.0\Lecture Demo_ComplexList.dll
+C:\Users\srver\OneDrive\Documents\Revature\Practice Code\VS DotNet\Lecture Demo_ComplexList\obj\Debug\net5.0\ref\Lecture Demo_ComplexList.dll
+C:\Users\srver\OneDrive\Documents\Revature\Practice Code\VS DotNet\Lecture Demo_ComplexList\obj\Debug\net5.0\Lecture Demo_ComplexList.pdb
+C:\Users\srver\OneDrive\Documents\Revature\Practice Code\VS DotNet\Lecture Demo_ComplexList\obj\Debug\net5.0\Lecture Demo_ComplexList.genruntimeconfig.cache
