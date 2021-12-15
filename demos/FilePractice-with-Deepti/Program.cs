@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections
 
-namespace Project0
+namespace FilePractice_with_Deepti
 {
     class Program
     {
@@ -9,10 +8,5 @@ namespace Project0
         {
             Console.WriteLine("Hello World!");
         }
-    }//EofC
-
-    class 
-
-
-
-}//EofN
+    }
+}
