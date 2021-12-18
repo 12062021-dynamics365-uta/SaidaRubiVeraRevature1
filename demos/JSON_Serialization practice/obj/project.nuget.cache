@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gwovk5XG0OCk7CsSs//+l8A8RW6ic2TCJfXhkSHh3YufJJ+lHfnVvMSvTwTzMU+gIpwXiAb8hWeiNymf5nPFww==",
+  "dgSpecHash": "rTg0SRJQCM3LQtqomuftk3Vf//YHV059Wrb5GaZs1PNI+zZ50Cd/gT2g1cNDOzhJw1cmPWZky6xoitdvk4Oj4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\srver\\OneDrive\\Documents\\Revature\\SaidaRubiVeraRevature1\\demos\\FilePractice-with-Deepti\\FilePractice-with-Deepti.csproj",
+  "projectFilePath": "C:\\Users\\srver\\OneDrive\\Documents\\Revature\\SaidaRubiVeraRevature1\\demos\\JSON_Serialization practice\\JSON_Serialization practice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\srver\\.nuget\\packages\\json.net\\1.0.33\\json.net.1.0.33.nupkg.sha512",
     "C:\\Users\\srver\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"

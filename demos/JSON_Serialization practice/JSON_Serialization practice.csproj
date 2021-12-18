@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>FilePractice_with_Deepti</RootNamespace>
+    <RootNamespace>JSON_Serialization_practice</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

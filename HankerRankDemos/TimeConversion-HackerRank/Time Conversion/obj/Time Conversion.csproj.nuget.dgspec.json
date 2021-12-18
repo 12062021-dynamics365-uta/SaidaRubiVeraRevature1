@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\srver\\OneDrive\\Documents\\Revature\\SaidaRubiVeraRevature1\\demos\\FilePractice-with-Deepti\\FilePractice-with-Deepti.csproj": {}
+    "C:\\Users\\srver\\OneDrive\\Documents\\Revature\\SaidaRubiVeraRevature1\\HankerRankDemos\\TimeConversion-HackerRank\\Time Conversion\\Time Conversion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\srver\\OneDrive\\Documents\\Revature\\SaidaRubiVeraRevature1\\demos\\FilePractice-with-Deepti\\FilePractice-with-Deepti.csproj": {
+    "C:\\Users\\srver\\OneDrive\\Documents\\Revature\\SaidaRubiVeraRevature1\\HankerRankDemos\\TimeConversion-HackerRank\\Time Conversion\\Time Conversion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\srver\\OneDrive\\Documents\\Revature\\SaidaRubiVeraRevature1\\demos\\FilePractice-with-Deepti\\FilePractice-with-Deepti.csproj",
-        "projectName": "FilePractice-with-Deepti",
-        "projectPath": "C:\\Users\\srver\\OneDrive\\Documents\\Revature\\SaidaRubiVeraRevature1\\demos\\FilePractice-with-Deepti\\FilePractice-with-Deepti.csproj",
+        "projectUniqueName": "C:\\Users\\srver\\OneDrive\\Documents\\Revature\\SaidaRubiVeraRevature1\\HankerRankDemos\\TimeConversion-HackerRank\\Time Conversion\\Time Conversion.csproj",
+        "projectName": "Time Conversion",
+        "projectPath": "C:\\Users\\srver\\OneDrive\\Documents\\Revature\\SaidaRubiVeraRevature1\\HankerRankDemos\\TimeConversion-HackerRank\\Time Conversion\\Time Conversion.csproj",
         "packagesPath": "C:\\Users\\srver\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\srver\\OneDrive\\Documents\\Revature\\SaidaRubiVeraRevature1\\demos\\FilePractice-with-Deepti\\obj\\",
+        "outputPath": "C:\\Users\\srver\\OneDrive\\Documents\\Revature\\SaidaRubiVeraRevature1\\HankerRankDemos\\TimeConversion-HackerRank\\Time Conversion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,16 +43,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Json.Net": {
-              "target": "Package",
-              "version": "[1.0.33, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
