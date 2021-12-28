@@ -96,7 +96,7 @@ namespace StringManipulationChallenge
         public static string ConcatNames(string fName, string lName)
         {
             return string.Concat(fName," ", lName);
-
+            //return fName + " " + lName; //this is another way to concat
             //throw new NotImplementedException("ConcatNames method not implemented.");
         }
     }//end of program
