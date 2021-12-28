@@ -16,19 +16,19 @@ namespace Domain
         bool AddProductToCart(Product product);
         void CancelOrder();
         void Checkout();
-        int ConvertInputToInt(string userInput);
         void Exit();
-        List<Order> GetListOfOrders();
         void InitializeCurrentStoreProducts();
         void InitializePreviousStoreOrders();
         void InitializeStores();
+        List<Order> GetListOfOrders();
         bool Login(string firstName, string email);
-        IEnumerable<KeyValuePair<(string Name, int Price), int>> ConvertCartToIEnum();
-        IEnumerable<KeyValuePair<(string Name, int Price), int>> ConvertOrdersToIEnum(int i);
         void Register(string firstName, string lastName, string email);
+        int ConvertInputToInt(string userInput);
         int ValidateMainMenuChoice(string userInput);
         int ValidateShoppingMenuChoice(string userInput, int numOfChoices);
         int ValidateStoreListMenuChoice(string userInput);
         int ValidateStoreMenuChoice(string userInput);
+        IEnumerable<KeyValuePair<(string Name, int Price), int>> ConvertCartToIEnum();
+        IEnumerable<KeyValuePair<(string Name, int Price), int>> ConvertOrdersToIEnum(int i);
     }
 }

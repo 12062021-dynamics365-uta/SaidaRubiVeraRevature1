@@ -152,7 +152,7 @@ namespace Domain
         /// <summary>
         /// Converts input into int
         /// </summary>
-        /// <param name="userInput">Users Input string</param>
+        /// <param name="userInput">Users string</param>
         /// <returns>int</returns>
         public int ConvertInputToInt(string userInput)
         {
