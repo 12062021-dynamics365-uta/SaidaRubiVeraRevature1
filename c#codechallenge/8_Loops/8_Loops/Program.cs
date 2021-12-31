@@ -17,8 +17,17 @@ namespace _8_LoopsChallenge
         /// <param name="x"></param>
         /// <returns></returns>
         public static int UseFor(List<int> x)
-        {
-            throw new NotImplementedException("UseFor() is not implemented yet.");
+        {   
+            int count = 0;
+
+            for (int i = 0; i <x.Count; i++)
+            {
+                if (i % 2 != 0)
+                    count++;
+            }
+            return count;
+
+            //throw new NotImplementedException("UseFor() is not implemented yet.");
         }
 
         /// <summary>
@@ -29,7 +38,86 @@ namespace _8_LoopsChallenge
         /// <returns></returns>
         public static int UseForEach(List<object> x)
         {
-            throw new NotImplementedException("UseForEach() is not implemented yet.");
+            int count = 0;
+
+            foreach (object i in x)
+            {
+                switch (Type.GetTypeCode(i.GetType()))
+                {
+                    case TypeCode.Byte:
+                        {
+                            if((byte)i % 2 == 0)
+                                count++;
+                        }
+                        break;
+                    case TypeCode.SByte:
+                        {
+                            if ((sbyte)i % 2 == 0)
+                                count++;
+                        }
+                        break;
+                    case TypeCode.Int32:
+                        {
+                            if ((Int32)i % 2 == 0)
+                                count++;
+                        }
+                        break;
+                    case TypeCode.UInt32:
+                        {
+                            if ((UInt32)i % 2 == 0)
+                                count++;
+                        }
+                        break;
+                    case TypeCode.Int16:
+                        {
+                            if ((Int16)i % 2 == 0)
+                                count++;
+                        }
+                        break;
+                    case TypeCode.UInt16:
+                        {
+                            if ((UInt16)i % 2 == 0)
+                                count++;
+                        }
+                        break;
+                    case TypeCode.Int64:
+                        {
+                            if ((Int64)i % 2 == 0)
+                                count++;
+                        }
+                        break;
+                    case TypeCode.UInt64:
+                        {
+                            if ((UInt64)i % 2 == 0)
+                                count++;
+                        }
+                        break;
+                    case TypeCode.Single:
+                        {
+                            if ((Single)i % 2 == 0)
+                                count++;
+                        }
+                        break;
+                    case TypeCode.Double:
+                        {
+                            if ((Double)i % 2 == 0)
+                                count++;
+                        }
+                        break;
+                    case TypeCode.Decimal:
+                        {
+                            if ((Decimal)i % 2 == 0)
+                                count++;
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+            return count;
+
+            //throw new NotImplementedException("UseForEach() is not implemented yet.");
         }
 
         /// <summary>
