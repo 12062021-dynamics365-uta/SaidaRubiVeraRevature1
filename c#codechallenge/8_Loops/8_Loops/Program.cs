@@ -7,8 +7,6 @@ namespace _8_LoopsChallenge
     {
         public static void Main(string[] args)
         {
-            /* Your code here */
-
         }
 
         /// <summary>
@@ -18,14 +16,14 @@ namespace _8_LoopsChallenge
         /// <returns></returns>
         public static int UseFor(List<int> x)
         {   
-            int count = 0;
+            int counter = 0;
 
             for (int i = 0; i <x.Count; i++)
             {
                 if (i % 2 != 0)
-                    count++;
+                    counter++;
             }
-            return count;
+            return counter;
 
             //throw new NotImplementedException("UseFor() is not implemented yet.");
         }
@@ -128,7 +126,20 @@ namespace _8_LoopsChallenge
         /// <param name="x"></param>
         public static int UseWhile(List<int> x)
         {
-            throw new NotImplementedException("UseFor() is not implemented yet.");
+            int counter = 0;
+
+            foreach (int i in x)
+            {
+                while(i!= 1234)
+                {
+                    if (i % 4 == 0)
+                        counter++;
+                }
+
+            }
+            return counter;
+
+            //throw new NotImplementedException("UseFor() is not implemented yet.");
         }
 
         /// <summary>
@@ -139,7 +150,16 @@ namespace _8_LoopsChallenge
         /// <returns></returns>
         public static int UseForThreeFour(int[] x)
         {
-            throw new NotImplementedException("UseForThreeFour() is not implemented yet.");
+            int counter = 0;
+            
+            for(int i = 0; i <x.Length; i++)
+            {
+                if (i % 4 == 0 && i % 3 == 0)
+                    counter++;
+            }
+            return counter;
+
+            //throw new NotImplementedException("UseForThreeFour() is not implemented yet.");
         }
 
         /// <summary>
@@ -150,7 +170,21 @@ namespace _8_LoopsChallenge
         /// <returns></returns>
         public static string LoopdyLoop(List<string>[] stringListArray)
         {
-            throw new NotImplementedException("LoopdyLoop() is not implemented yet.");
+            string concatStr = "";
+
+            for (int i = 0; i <stringListArray.Length; i++)
+            {
+                List<string> list = stringListArray[i];
+
+                for (int j =0; j < list.Count; j++)
+                {
+                    concatStr += list[j] + " ";
+                }
+
+            }
+            return concatStr;
+
+            //throw new NotImplementedException("LoopdyLoop() is not implemented yet.");
         }
     }
 }
