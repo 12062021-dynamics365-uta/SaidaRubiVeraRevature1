@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "59vIDzFb7eON1pZRYwYyQGkGnqc9+xVC76YQkZIITLDMEMZsB8RxdbJq9JL5mSVTKpzXfHm7NKjIekv3KVdw1w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\srver\\OneDrive\\Documents\\Revature\\SaidaRubiVeraRevature1\\SweetnSaltyConsole\\SweetnSalty\\SweetnSalty.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\srver\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dCUcwCnXS+ikjpNf7BILnHCEcrio9dYR/jlrJh+ViRf4PlEO3khDIcErFlXoHldO8XaeFxfGAsB6+x3KFS/aaw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\srver\\OneDrive\\Documents\\Revature\\SaidaRubiVeraRevature1\\c#codechallenge\\9_Classes\\9_Classes\\9_ClassesChallenge.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\srver\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

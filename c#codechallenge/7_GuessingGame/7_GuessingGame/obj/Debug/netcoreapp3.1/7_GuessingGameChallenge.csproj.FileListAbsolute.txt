@@ -1,0 +1,14 @@
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\7_GuessingGame\7_GuessingGame\bin\Debug\netcoreapp3.1\7_GuessingGameChallenge.exe
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\7_GuessingGame\7_GuessingGame\bin\Debug\netcoreapp3.1\7_GuessingGameChallenge.deps.json
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\7_GuessingGame\7_GuessingGame\bin\Debug\netcoreapp3.1\7_GuessingGameChallenge.runtimeconfig.json
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\7_GuessingGame\7_GuessingGame\bin\Debug\netcoreapp3.1\7_GuessingGameChallenge.runtimeconfig.dev.json
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\7_GuessingGame\7_GuessingGame\bin\Debug\netcoreapp3.1\7_GuessingGameChallenge.dll
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\7_GuessingGame\7_GuessingGame\bin\Debug\netcoreapp3.1\7_GuessingGameChallenge.pdb
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\7_GuessingGame\7_GuessingGame\obj\Debug\netcoreapp3.1\7_GuessingGameChallenge.csproj.AssemblyReference.cache
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\7_GuessingGame\7_GuessingGame\obj\Debug\netcoreapp3.1\7_GuessingGameChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\7_GuessingGame\7_GuessingGame\obj\Debug\netcoreapp3.1\7_GuessingGameChallenge.AssemblyInfoInputs.cache
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\7_GuessingGame\7_GuessingGame\obj\Debug\netcoreapp3.1\7_GuessingGameChallenge.AssemblyInfo.cs
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\7_GuessingGame\7_GuessingGame\obj\Debug\netcoreapp3.1\7_GuessingGameChallenge.csproj.CoreCompileInputs.cache
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\7_GuessingGame\7_GuessingGame\obj\Debug\netcoreapp3.1\7_GuessingGameChallenge.dll
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\7_GuessingGame\7_GuessingGame\obj\Debug\netcoreapp3.1\7_GuessingGameChallenge.pdb
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\7_GuessingGame\7_GuessingGame\obj\Debug\netcoreapp3.1\7_GuessingGameChallenge.genruntimeconfig.cache

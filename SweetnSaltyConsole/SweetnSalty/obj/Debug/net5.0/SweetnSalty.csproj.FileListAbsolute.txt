@@ -1,0 +1,16 @@
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\SweetnSaltyConsole\SweetnSalty\obj\Debug\net5.0\SweetnSalty.csproj.AssemblyReference.cache
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\SweetnSaltyConsole\SweetnSalty\obj\Debug\net5.0\SweetnSalty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\SweetnSaltyConsole\SweetnSalty\obj\Debug\net5.0\SweetnSalty.AssemblyInfoInputs.cache
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\SweetnSaltyConsole\SweetnSalty\obj\Debug\net5.0\SweetnSalty.AssemblyInfo.cs
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\SweetnSaltyConsole\SweetnSalty\obj\Debug\net5.0\SweetnSalty.csproj.CoreCompileInputs.cache
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\SweetnSaltyConsole\SweetnSalty\bin\Debug\net5.0\SweetnSalty.exe
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\SweetnSaltyConsole\SweetnSalty\bin\Debug\net5.0\SweetnSalty.deps.json
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\SweetnSaltyConsole\SweetnSalty\bin\Debug\net5.0\SweetnSalty.runtimeconfig.json
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\SweetnSaltyConsole\SweetnSalty\bin\Debug\net5.0\SweetnSalty.runtimeconfig.dev.json
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\SweetnSaltyConsole\SweetnSalty\bin\Debug\net5.0\SweetnSalty.dll
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\SweetnSaltyConsole\SweetnSalty\bin\Debug\net5.0\ref\SweetnSalty.dll
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\SweetnSaltyConsole\SweetnSalty\bin\Debug\net5.0\SweetnSalty.pdb
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\SweetnSaltyConsole\SweetnSalty\obj\Debug\net5.0\SweetnSalty.dll
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\SweetnSaltyConsole\SweetnSalty\obj\Debug\net5.0\ref\SweetnSalty.dll
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\SweetnSaltyConsole\SweetnSalty\obj\Debug\net5.0\SweetnSalty.pdb
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\SweetnSaltyConsole\SweetnSalty\obj\Debug\net5.0\SweetnSalty.genruntimeconfig.cache

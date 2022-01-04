@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "E4U1VPVpfuj0vkQcO0xrhxwdoKeN4ZNxErLXfkku4Y4OSQazjjZlZ6YpTy57ia2OuVTz2haGxuk8a3CPHP8h1A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\srver\\OneDrive\\Documents\\Revature\\SaidaRubiVeraRevature1\\c#codechallenge\\7_GuessingGame\\7_GuessingGame\\7_GuessingGameChallenge.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\srver\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}

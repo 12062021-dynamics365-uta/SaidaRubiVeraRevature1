@@ -6,7 +6,13 @@ namespace _5_OperatorsChallenge
     {
         public static void Main(string[] args)
         {
-
+            Console.WriteLine("Input a number");
+            int num = Console.Read();
+            Console.WriteLine(Increment(num));
+            Console.WriteLine(Decrement(num));
+            Console.WriteLine("Input True or False");
+            object input = Console.ReadLine();
+            Console.WriteLine(Not((bool)input));
         }
 
         /// <summary>
