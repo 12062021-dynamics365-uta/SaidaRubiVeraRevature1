@@ -1,0 +1,5 @@
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\9_Classes\9_ClassesChallenge.Tests\obj\Debug\net5.0\9_ClassesChallenge.Tests.csproj.AssemblyReference.cache
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\9_Classes\9_ClassesChallenge.Tests\obj\Debug\net5.0\9_ClassesChallenge.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\9_Classes\9_ClassesChallenge.Tests\obj\Debug\net5.0\9_ClassesChallenge.Tests.AssemblyInfoInputs.cache
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\9_Classes\9_ClassesChallenge.Tests\obj\Debug\net5.0\9_ClassesChallenge.Tests.AssemblyInfo.cs
+C:\Users\srver\OneDrive\Documents\Revature\SaidaRubiVeraRevature1\c#codechallenge\9_Classes\9_ClassesChallenge.Tests\obj\Debug\net5.0\9_ClassesChallenge.Tests.csproj.CoreCompileInputs.cache

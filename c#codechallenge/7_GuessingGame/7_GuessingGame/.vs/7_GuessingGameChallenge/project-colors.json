@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "67b6bb75-03aa-4c16-b641-68e97b0a837a": {
+      "ProjectGuid": "67b6bb75-03aa-4c16-b641-68e97b0a837a",
+      "DisplayName": "7_GuessingGameChallenge",
+      "ColorIndex": 0
+    },
+    "a0c582fc-280b-4393-95ea-f5d152a357cb": {
+      "ProjectGuid": "a0c582fc-280b-4393-95ea-f5d152a357cb",
+      "DisplayName": "7_GuessingGameChallenge.Tests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
