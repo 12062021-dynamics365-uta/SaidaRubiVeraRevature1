@@ -22,7 +22,7 @@ namespace SweetnSalty
             *
             */
 
-            //These keep count of each type of word
+            //Instantiating ints to keep count of each type of word
             int sweetCounter = 0;
             int saltyCounter = 0;
             int snsCounter = 0;
@@ -30,7 +30,7 @@ namespace SweetnSalty
             //for loop to print each number/word
             for (int i = 1; i <= 1000; i++)
             {
-                if (i%20 == 0)
+                if (i%20 == 0) //print 20 numbers/words per line
                 {
                     Console.WriteLine();
                 }
