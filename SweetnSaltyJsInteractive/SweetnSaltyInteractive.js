@@ -35,10 +35,19 @@ as the user moves through the steps.
 -- Step 0: After all the numbers have been printed, present a button allowing the user to delete everything and restart.
 */
 
-// create the input element
-let startInput = document.createElement('input');
-//add the element to the body
-document.body.appendChild(startInput);
+/*
+<h1 id="TitleofPage">Sweet 'n Salty Interactive</h1>
+<br>
+<form action="console.log" method="get">
+    <label for="startNumbInput">Please enter a starting number:</label>
+    <input autofocus type="text" id="startNumbInput" placeholder="starting number">
+    <br>
+    <label for="endNumbInput">Please enter a final number:</label>
+    <input autofocus type="text" id="endNumbInput" placeholder="ending number">
+    <input type="button" value="Submit">
+</form>
+*/
+
 
 
 
