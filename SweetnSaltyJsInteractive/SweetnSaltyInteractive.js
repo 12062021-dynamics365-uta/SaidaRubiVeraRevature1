@@ -35,19 +35,84 @@ as the user moves through the steps.
 -- Step 0: After all the numbers have been printed, present a button allowing the user to delete everything and restart.
 */
 
-/*
-<h1 id="TitleofPage">Sweet 'n Salty Interactive</h1>
-<br>
-<form action="console.log" method="get">
-    <label for="startNumbInput">Please enter a starting number:</label>
-    <input autofocus type="text" id="startNumbInput" placeholder="starting number">
-    <br>
-    <label for="endNumbInput">Please enter a final number:</label>
-    <input autofocus type="text" id="endNumbInput" placeholder="ending number">
-    <input type="button" value="Submit">
-</form>
+
+
+
+ /*
+let text1 = document.createElement('h4')
+document.body.appendChild(text1)
+text1.innerText = `Please enter a starting number`
+
+let form = document.createElement("form")
+
+form.setAttribute("id", "myForm");
+document.body.appendChild(form);    
+
+var y = document.createElement('input');
+y.setAttribute("type", "text");
+y.setAttribute("placeholder", "starting number here");
+y.setAttribute("id", "input")
+document.getElementById("myForm").appendChild(y);
+
+let numb = document.getElementById('input').value
+
+console.log(numb)
 */
 
 
 
 
+/*
+// create the title element for the list
+let title = document.createElement('h1');
+//add the element to the body
+document.body.appendChild(title);
+//text to be displayed
+title.innerText = `Sweet 'n Salty Interactive`;
+
+//create text element for user promt
+let startText = document.createElement('h4');
+//add the element to the body
+document.body.appendChild(startText)
+//text to be displayed
+startText.innerText = `Please enter a starting number:`
+
+// create the input element
+let startInput = document.createElement('input');
+//add the element to the body
+document.body.appendChild(startInput);
+
+//create text element for user promt
+let endText = document.createElement('h4');
+//add the element to the body
+document.body.appendChild(endText)
+//text to be displayed
+endText.innerText = `Please enter a final number:`
+
+// create the input element
+let endInput = document.createElement('input');
+//add the element to the body
+document.body.appendChild(endInput);
+
+
+//instantiating and getting userinput of startNumb
+const userStartInput =  document.querySelector("startInput")
+//let userStartInput = document.getElementById("startNumb");
+
+//instantiating array to hole inputs
+let db = []
+//create user input id as startNumb
+startInput.innerHTML = `<input id="startNumb" value="THIS IS WHERE YOU INPUT"></input>`
+
+let test = document.getElementById('startNumb').value;
+console.log(test)
+
+startInput.addEventListener('keypress', (e) => {
+    if (e.key == 'Enter') {
+        console.log(userStartInput)  
+        //db.push(userStartInput)
+    }
+});
+
+console.log(db);
+*/
