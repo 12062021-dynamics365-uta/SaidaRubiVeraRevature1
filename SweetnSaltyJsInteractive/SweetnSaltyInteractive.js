@@ -36,33 +36,6 @@ as the user moves through the steps.
 */
 
 
-
-
- /*
-let text1 = document.createElement('h4')
-document.body.appendChild(text1)
-text1.innerText = `Please enter a starting number`
-
-let form = document.createElement("form")
-
-form.setAttribute("id", "myForm");
-document.body.appendChild(form);    
-
-var y = document.createElement('input');
-y.setAttribute("type", "text");
-y.setAttribute("placeholder", "starting number here");
-y.setAttribute("id", "input")
-document.getElementById("myForm").appendChild(y);
-
-let numb = document.getElementById('input').value
-
-console.log(numb)
-*/
-
-
-
-
-/*
 // create the title element for the list
 let title = document.createElement('h1');
 //add the element to the body
@@ -70,49 +43,208 @@ document.body.appendChild(title);
 //text to be displayed
 title.innerText = `Sweet 'n Salty Interactive`;
 
-//create text element for user promt
-let startText = document.createElement('h4');
-//add the element to the body
-document.body.appendChild(startText)
-//text to be displayed
-startText.innerText = `Please enter a starting number:`
 
 // create the input element
 let startInput = document.createElement('input');
-//add the element to the body
-document.body.appendChild(startInput);
-
+//create text element for user promt
+let startText = document.createElement('h4');
 //create text element for user promt
 let endText = document.createElement('h4');
-//add the element to the body
-document.body.appendChild(endText)
-//text to be displayed
-endText.innerText = `Please enter a final number:`
-
 // create the input element
 let endInput = document.createElement('input');
-//add the element to the body
-document.body.appendChild(endInput);
+//creating start game button
+let startButton = document.createElement('button')
+//text in game
+startButton.innerText = 'Start Game!'
+//Show start button
+document.body.appendChild(startButton)
+//creating strat number button
+let startNumbButton = document.createElement('button');
+//text in button
+startNumbButton.innerText = 'Submit'
+//ceating end number button
+let endNumbButton = document.createElement('button');
+//text in button
+endNumbButton.innerText = 'Submit'
+//creating start game button
+let endButton = document.createElement('button')
 
 
-//instantiating and getting userinput of startNumb
-const userStartInput =  document.querySelector("startInput")
-//let userStartInput = document.getElementById("startNumb");
+let startNumb = 0
+let endNumb = 0
 
-//instantiating array to hole inputs
-let db = []
-//create user input id as startNumb
-startInput.innerHTML = `<input id="startNumb" value="THIS IS WHERE YOU INPUT"></input>`
 
-let test = document.getElementById('startNumb').value;
-console.log(test)
+startButton.addEventListener('click', (e) => {
+    document.body.innerHTML = ""
+    //add the element to the body
+    document.body.appendChild(startText)
+    //text to be displayed
+    startText.innerText = `Please enter a starting number:`
+    //add the element to the body
+    document.body.appendChild(startInput);
+    startInput.focus();
+    // show button
+    document.body.appendChild(startNumbButton);
+})
+
 
 startInput.addEventListener('keypress', (e) => {
     if (e.key == 'Enter') {
-        console.log(userStartInput)  
-        //db.push(userStartInput)
+        startNumb = startInput.value
+        console.log(startNumb)  
+        document.body.innerHTML = ""
+        //add the element to the body
+        document.body.appendChild(endText)
+        //text to be displayed
+        endText.innerText = `Please enter a final number:`
+        //add the element to the body
+        document.body.appendChild(endInput);
+        endInput.focus();
+        //show button
+        document.body.appendChild(endNumbButton);
     }
 });
 
-console.log(db);
-*/
+startNumbButton.addEventListener('click', (e)=> {
+    startNumb = startInput.value
+    console.log(startNumb)
+    document.body.innerHTML = ""
+    //add the element to the body
+    document.body.appendChild(endText)
+    //text to be displayed
+    endText.innerText = `Please enter a final number:`
+    //add the element to the body
+    document.body.appendChild(endInput);
+    endInput.focus();
+    //show button
+    document.body.appendChild(endNumbButton);
+
+})
+
+endInput.addEventListener('keypress', (e) => {
+    if (e.key == 'Enter') {
+        endNumb = endInput.value
+        document.body.innerHTML = ""
+        document.body.appendChild(printOutput)
+        console.log(endNumb)  
+       snsInteractive(startNumb, endNumb)
+    }
+});
+
+endNumbButton.addEventListener('click', (e) => {
+    endNumb = endInput.value
+    document.body.innerHTML = ""
+    document.body.appendChild(printOutput)
+    console.log(endNumb) 
+    snsInteractive(startNumb, endNumb)
+})
+
+//create text element for user promt
+let printOutput = document.createElement('h3');
+//add the element to the body
+document.body.appendChild(printOutput)
+
+
+
+function snsInteractive (startNumb, endNumb)
+{
+    let counter = startNumb;
+    let snsCounter = 0
+    let swCounter = 0
+    let saCounter = 0
+    let output = ""
+
+    if (numbValidation(startNumb,endNumb) == true) 
+    {
+        
+        //instantiating array to hole inputs
+        let db = []
+        
+        while (counter <= endNumb) 
+        {
+            
+            //print 40 numbers per line
+            for (let i = 1; i < 40; i++) 
+            {
+                if (counter%5 == 0 && counter%3 == 0) //If number is divisable by 3 and 5
+                {
+                    output += "<span>SweetnSalty</span>"; //print this
+                    snsCounter++; //and count each time sweetnsalty is printed
+                }
+                else if (counter%5 == 0) //If number is divisable by 5
+                {
+                    output += "<span>Salty </span>"; //print this
+                    saCounter++; //and count each time salty is printed
+                    
+                }
+                else if (counter%3 == 0) //If number is divisiable by 3
+                {
+                    output += "<span>Sweet </span>"; //print this
+                    swCounter++; //and count each time sweet is printed
+                }
+                else 
+                {
+                    output += counter + " "; //if not divisible by 3, 5, or both print the number and the other part of the string
+                }      
+        
+                if (counter == endNumb)
+                {
+                    counter++;
+                    break;
+                }
+                
+                counter++;
+            }
+    
+            //text to be displayed
+            printOutput.innerHTML = `${output}`
+    
+        }
+        
+        //create text element for sweet
+        let printSWCounter = document.createElement('h3');
+        //add the element to the body
+        document.body.appendChild(printSWCounter)
+        
+        //create text element for salty
+        let printSACounter = document.createElement('h3');
+        //add the element to the body
+        document.body.appendChild(printSACounter)
+        
+        //create text element for sns
+        let printSnSCounter = document.createElement('h3');
+        //add the element to the body
+        document.body.appendChild(printSnSCounter)
+
+        printSWCounter.innerText = `# of Sweet: ${swCounter}`//print the amount of times the word sweet was printed
+        printSACounter.innerText = `# of Salty: ${saCounter}` //print the amount of times the word saly was printed
+        printSnSCounter.innerText = `# of SweetnSalty: ${snsCounter}` //print the amount of times the word sweetnsalty was 
+    } 
+    else 
+    {
+        console.log('invalid number inputs') //change this to be able to print on screen...later
+    }
+
+    //text in game
+    endButton.innerText = 'Stop playing'
+    //Show start button
+    document.body.appendChild(endButton)
+    
+}
+
+endButton.addEventListener('click', (e) => {
+    location.reload();
+})
+
+function numbValidation(startNumb, endNumb)
+{
+    if (startNumb >=0 && endNumb > startNumb)
+    {
+        if (Math.abs(startNumb-endNumb) >= 200 && Math.abs(startNumb - endNumb) <= 10000)
+        {
+            return true;
+        }
+        return false;
+    }
+    return false;
+}
