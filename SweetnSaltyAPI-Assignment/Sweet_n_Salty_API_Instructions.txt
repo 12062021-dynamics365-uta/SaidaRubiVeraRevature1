@@ -1,0 +1,17 @@
+Sweet ‘n Salty API:
+- Create a new branch called SweetnSaltyAPI
+- Create a .NET Web API version of Sweet ‘n Salty 
+- Create a Db that includes 3 tables: Flavors. People, People/Flavors Junction table 
+- You must have at least the 3 flavors “Sweet”, “Salty”, and “SweetnSalty”.
+- You must create the following routes 
+-- POST a new flavor 
+-- POST a person who likes a flavor 
+-- GET a person by name. 
+-- GET a person and their liked flavors by id. 
+-- GET a list of flavors available. 
+- All methods must be ASYNC and use Async/Await. 
+- You must have 3 projects: 
+-- a API project,
+-- a ClassLibrary project for business logic, and
+-- a ClassLibrary DataBaseAccess project. 
+- Each class must implement an Interface.
