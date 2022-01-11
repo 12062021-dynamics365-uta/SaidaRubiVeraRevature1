@@ -11,6 +11,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using SweetnSaltyBusiness;
+using SweetnSaltyDbAccess;
 
 namespace SweetnSaltyAPI
 {
@@ -23,13 +25,11 @@ namespace SweetnSaltyAPI
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            /**
-             * here you need to register interfaces and classes with the dependency injection system
-             */
-
+            services.AddScoped<ISweetnSaltyBusinessClass, SweetnSaltyBusinessClass>();
+            services.AddScoped<ISweetnSaltyDbAccessClass, SweetnSaltyDbAccessClass>();
+            services.AddScoped<IMapper, Mapper>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -38,7 +38,6 @@ namespace SweetnSaltyAPI
             });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
