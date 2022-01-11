@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace SweetnSaltyModels
 {
-    internal class Flavor
+    public class Flavor
     {
+        public int FlavorId { get; set; }
+        public string FlavorType { get; set; }
     }
 }
